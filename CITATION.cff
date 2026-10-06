@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite this software and the accompanying manuscript. A release DOI will be added after publication of the repository."
+type: software
+title: "Beyond peak dose: the 72-hour transition after vasopressor withdrawal in septic shock"
+abstract: "Analysis code and disclosure-protected aggregate results for a three-cohort clinical study of vasopressor withdrawal."
+authors:
+  - family-names: Wang
+    given-names: Tianyi
+  - family-names: Chen
+    given-names: Jun
+  - family-names: Fan
+    given-names: Chunlei
+  - family-names: Zang
+    given-names: Shouhua
+  - family-names: Ding
+    given-names: Jiajie
+  - family-names: Yu
+    given-names: Wenbo
+  - family-names: Zhang
+    given-names: Yukun
+license: MIT
+keywords:
+  - septic shock
+  - vasopressor withdrawal
+  - clinical cohorts
+  - competing risks
+  - reproducible research

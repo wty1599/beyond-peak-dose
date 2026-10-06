@@ -1,0 +1,13 @@
+Cohort,Dose category,Support measurement,"Risk difference (pp), 95% CI","OR, 95% CI"
+MIMIC-IV,Without,Mechanical ventilation at withdrawal,14.9 (11.0 to 18.8),1.99 (1.66 to 2.42)
+MIMIC-IV,With,Mechanical ventilation at withdrawal,14.9 (11.0 to 19.1),2.00 (1.67 to 2.43)
+MIMIC-IV,Without,RRT at withdrawal,14.9 (6.9 to 23.3),1.92 (1.37 to 2.74)
+MIMIC-IV,With,RRT at withdrawal,15.1 (7.1 to 23.4),1.93 (1.39 to 2.76)
+SICdb,Without,Airway/device ventilation proxy,22.5 (17.2 to 28.3),2.73 (2.18 to 3.58)
+SICdb,With,Airway/device ventilation proxy,21.7 (16.3 to 27.5),2.64 (2.09 to 3.45)
+SICdb,Without,"Recorded CRRT activity, preceding 6 h",17.9 (7.1 to 29.9),2.23 (1.40 to 3.74)
+SICdb,With,"Recorded CRRT activity, preceding 6 h",17.3 (6.3 to 29.5),2.17 (1.35 to 3.70)
+AmsterdamUMCdb,Without,Recorded ventilation process at withdrawal,9.7 (1.1 to 17.7),1.67 (1.06 to 2.84)
+AmsterdamUMCdb,With,Recorded ventilation process at withdrawal,9.8 (1.0 to 18.0),1.68 (1.05 to 2.91)
+AmsterdamUMCdb,Without,Recorded CVVH process at withdrawal,4.4 (-5.8 to 15.3),1.23 (0.73 to 2.02)
+AmsterdamUMCdb,With,Recorded CVVH process at withdrawal,3.6 (-6.9 to 14.4),1.19 (0.70 to 1.98)

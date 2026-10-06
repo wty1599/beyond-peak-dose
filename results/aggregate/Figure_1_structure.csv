@@ -1,0 +1,24 @@
+database,stage,events,care_units,patients,public_note
+MIMIC-IV,Clinical candidates,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+MIMIC-IV,Four-hour qualification,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+MIMIC-IV,First qualifying withdrawal,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+MIMIC-IV,Analysis cohort,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+MIMIC-IV,Outcome denominators,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+MIMIC-IV,Analysis samples,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+MIMIC-IV,Chronology/qualification exclusions,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+MIMIC-IV,Treatment limitation exclusion,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+SICdb,Clinical candidates,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+SICdb,Four-hour qualification,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+SICdb,First qualifying withdrawal,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+SICdb,Analysis cohort,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+SICdb,Outcome denominators,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+SICdb,Analysis samples,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+SICdb,Chronology exclusions,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+AmsterdamUMCdb,Technical candidates,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+AmsterdamUMCdb,Clinical screening,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+AmsterdamUMCdb,First qualifying withdrawal,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+AmsterdamUMCdb,Analysis cohort,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+AmsterdamUMCdb,Outcome denominators,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+AmsterdamUMCdb,Analysis samples,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+AmsterdamUMCdb,Clinical screening exclusions,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.
+AmsterdamUMCdb,Qualification or first-event exclusions,Not disclosed,Not disclosed,Not disclosed,Counts withheld as a linked disclosure-protection family; see the manuscript for the original flow.

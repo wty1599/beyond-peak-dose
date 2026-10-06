@@ -1,0 +1,11 @@
+Feature,MIMIC-IV,SICdb,AmsterdamUMCdb
+Included vasopressors,"Norepinephrine, epinephrine, dopamine, phenylephrine and vasopressin.",The same five drugs.,Four mapped drugs; vasopressin was not found. Terlipressin was not included in NEE.
+Care boundary,One ICU stay; first qualifying withdrawal.,"One adapted care case, potentially including intermediate care; first qualifying withdrawal.",One pure intensive care admission; first definitely qualifying withdrawal.
+Infection,Culture–antibiotic pairing consistent with Sepsis-3; episode-timed organ dysfunction and lactate.,Antibiotic and recorded sepsis information; infection pairing was adapted.,"Antibiotic-order proxy, truncated at withdrawal; not strict Sepsis-3 pairing."
+Age,Continuous age.,Grouped source values available as numeric inputs.,Six adult age groups; entered categorically.
+Dose and weight,Patient weight and continuous five-drug NEE.,Binned weight input and the existing continuous NEE conversion.,Weight and dose intervals; dose categories were assigned only when bounds agreed.
+Death timing,"Recorded time, or a date-based interval when only a date was available.",Recorded case/death timing with source-specific chronology rules.,Death date represented conservatively by an interval; no standard mortality CIF reported.
+Ventilation at withdrawal,Directly recorded mechanical ventilation.,Airway/device signal proxy.,"Ventilation-process interval covering withdrawal, with targeted airway/mode corroboration."
+Renal support at withdrawal,Directly recorded renal replacement therapy.,Recorded continuous renal replacement activity in the preceding 6 h.,CVVH-process interval covering withdrawal; not all renal replacement modalities.
+Treatment limitations,Prior limitation excluded; first recorded afterwards and unknown status retained.,No corresponding treatment-limitation exclusion.,The prior-limitation exclusion could not be reproduced.
+Study period,2008–2022,2013–2021,2003–2016

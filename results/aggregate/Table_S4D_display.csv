@@ -1,0 +1,4 @@
+Model,C,Offset intercept,Joint intercept,Joint slope,Brier
+Unchanged model,0.68,0.21,0.51,1.44,0.214
+Intercept updated,0.68,-0.00,0.21,1.44,0.212
+Intercept and slope updated,0.68,-0.00,0.00,1.00,0.210

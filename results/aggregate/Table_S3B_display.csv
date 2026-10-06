@@ -1,0 +1,13 @@
+Analysis,Events / outcomes,Contrast,"Risk difference (pp), 95% CI","OR, 95% CI"
+Excluding limitations first recorded after withdrawal,"1,437 / 415",Ventilation: present versus absent,14.1 (9.5 to 18.5),2.06 (1.65 to 2.64)
+Excluding limitations first recorded after withdrawal,"1,437 / 415",Renal support: present versus absent,14.1 (4.0 to 24.9),1.94 (1.23 to 3.11)
+Excluding limitations first recorded after withdrawal,"1,437 / 415",Exposure: 48 versus 24 h,1.5 (-2.0 to 4.6),1.08 (0.90 to 1.28)
+Excluding limitations first recorded after withdrawal,"1,437 / 415",Peak NEE: 0.30 versus 0.15 μg/kg/min,-1.7 (-6.6 to 3.8),0.92 (0.70 to 1.22)
+Known treatment-limitation status only,"1,324 / 489",Ventilation: present versus absent,15.6 (10.5 to 21.0),2.04 (1.63 to 2.65)
+Known treatment-limitation status only,"1,324 / 489",Renal support: present versus absent,13.6 (4.4 to 23.2),1.82 (1.22 to 2.78)
+Known treatment-limitation status only,"1,324 / 489",Exposure: 48 versus 24 h,1.5 (-2.1 to 5.1),1.07 (0.91 to 1.28)
+Known treatment-limitation status only,"1,324 / 489",Peak NEE: 0.30 versus 0.15 μg/kg/min,2.7 (-2.6 to 8.4),1.13 (0.89 to 1.48)
+Restart or death,"1,945 / 713",Ventilation: present versus absent,13.9 (9.9 to 18.3),1.88 (1.56 to 2.34)
+Restart or death,"1,945 / 713",Renal support: present versus absent,14.4 (6.0 to 22.2),1.86 (1.31 to 2.62)
+Restart or death,"1,945 / 713",Exposure: 48 versus 24 h,1.5 (-1.6 to 4.7),1.07 (0.93 to 1.25)
+Restart or death,"1,945 / 713",Peak NEE: 0.30 versus 0.15 μg/kg/min,1.6 (-3.1 to 6.2),1.08 (0.86 to 1.33)

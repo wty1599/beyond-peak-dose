@@ -1,0 +1,8 @@
+model,metric,estimate,lower95,upper95,interval
+original_method_minimal_correction_20260920,c_statistic,0.659098601083033,0.615692512081882,0.699200998290075,Patient-cluster percentile; fixed external predictions
+original_method_minimal_correction_20260920,calibration_intercept_offset,0.218059653896691,0.0811680239312733,0.362971715503264,Patient-cluster percentile; fixed external predictions
+original_method_minimal_correction_20260920,calibration_slope_joint,1.58630113292406,1.11550892578177,2.09647248854875,Patient-cluster percentile; fixed external predictions
+original_method_minimal_correction_20260920,calibration_intercept_joint,0.697316841001591,0.294046294713652,1.14737914842361,Patient-cluster percentile; fixed external predictions
+original_method_minimal_correction_20260920,brier,0.216372965019966,0.203946225422468,0.229962319768369,Patient-cluster percentile; fixed external predictions
+original_method_minimal_correction_20260920,observed_risk,0.351077313054499,0.319790752261364,0.384127937374853,Patient-cluster percentile; fixed external predictions
+original_method_minimal_correction_20260920,mean_prediction,0.304514408453598,0.298967582911379,0.309853383013366,Patient-cluster percentile; fixed external predictions

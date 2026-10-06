@@ -1,0 +1,19 @@
+Characteristic,MIMIC-IV,SICdb,AmsterdamUMCdb
+Age (years); Amsterdam: age groups,"65 [54, 75]","70 [60, 75]",See age groups below
+18–39,—,—,Not disclosed
+40–49,—,—,Not disclosed
+50–59,—,—,Not disclosed
+60–69,—,—,Not disclosed
+70–79,—,—,Not disclosed
+≥80,—,—,Not disclosed
+Female sex,Not disclosed,Not disclosed,Not disclosed
+Episode peak NEE (μg/kg/min),"0.30 [0.18, 0.50]","0.21 [0.14, 0.33]",See dose categories below
+<0.20,—,—,Not disclosed
+0.20–<0.50,—,—,Not disclosed
+≥0.50,—,—,Not disclosed
+Dose category undetermined,—,—,Not disclosed
+Cumulative positive exposure (h),"35.0 [17.7, 62.1]","21.4 [12.5, 39.2]","56.4 [28.9, 93.9]"
+Multiple agents at episode peak,Not disclosed,Not disclosed,Not available
+Ventilation at withdrawal (SICdb: airway/device signal; Amsterdam: recorded process),Not disclosed,Not disclosed,Not disclosed
+Renal support at withdrawal (SICdb: recorded CRRT in preceding 6 h; Amsterdam: recorded CVVH process),Not disclosed,Not disclosed,Not disclosed
+Lactate (mmol/L; MIMIC-IV: peak in 12 h before withdrawal; SICdb: around episode onset),"2.1 [1.5, 3.2]","3.2 [2.5, 4.2]",Not available

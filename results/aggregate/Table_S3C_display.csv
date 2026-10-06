@@ -1,0 +1,9 @@
+Model,Contrast,"Risk difference (pp), 95% CI","OR, 95% CI"
+Primary,Ventilation: present versus absent,23.7 (16.5 to 31.5),2.78 (2.06 to 4.00)
+Primary,Renal support: present versus absent,14.5 (2.4 to 27.4),1.90 (1.12 to 3.40)
+Primary,Exposure: 48 versus 24 h,2.3 (-3.6 to 7.7),1.11 (0.84 to 1.44)
+Primary,Peak NEE: 0.30 versus 0.15 μg/kg/min,1.2 (-5.4 to 7.9),1.06 (0.77 to 1.44)
+Primary + SOFA,Ventilation: present versus absent,23.2 (15.7 to 31.3),2.73 (2.01 to 4.00)
+Primary + SOFA,Renal support: present versus absent,14.2 (1.4 to 28.2),1.88 (1.07 to 3.65)
+Primary + SOFA,Exposure: 48 versus 24 h,1.7 (-4.4 to 7.1),1.08 (0.81 to 1.40)
+Primary + SOFA,Peak NEE: 0.30 versus 0.15 μg/kg/min,1.5 (-5.1 to 8.0),1.08 (0.78 to 1.46)

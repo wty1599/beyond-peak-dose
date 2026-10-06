@@ -1,0 +1,6 @@
+Metric,Estimate (95% CI)
+C statistic,0.66 (0.62 to 0.70)
+Offset calibration intercept,0.22 (0.08 to 0.36)
+Joint calibration slope,1.59 (1.12 to 2.10)
+Joint calibration intercept,0.70 (0.29 to 1.15)
+Brier score,0.216 (0.204 to 0.230)

@@ -1,0 +1,19 @@
+database,time_hours,restart,group,record_type,estimate,lower95,upper95,public_note
+MIMIC-IV,12,,<0.20,interval,0.179,0.149,0.211,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,24,,<0.20,interval,0.242,0.210,0.279,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,72,,<0.20,interval,0.288,0.252,0.326,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,12,,0.20-<0.50,interval,0.188,0.163,0.212,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,24,,0.20-<0.50,interval,0.263,0.234,0.289,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,72,,0.20-<0.50,interval,0.351,0.319,0.381,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,12,,>=0.50,interval,0.220,0.187,0.255,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,24,,>=0.50,interval,0.300,0.264,0.337,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,72,,>=0.50,interval,0.395,0.355,0.437,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,12,,<0.20,interval,0.160,0.138,0.185,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,24,,<0.20,interval,0.221,0.197,0.249,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,72,,<0.20,interval,0.287,0.258,0.319,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,12,,0.20-<0.50,interval,0.202,0.177,0.232,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,24,,0.20-<0.50,interval,0.286,0.256,0.320,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,72,,0.20-<0.50,interval,0.363,0.330,0.397,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,12,,>=0.50,interval,0.241,0.196,0.289,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,24,,>=0.50,interval,0.332,0.280,0.388,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,72,,>=0.50,interval,0.420,0.364,0.483,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.

@@ -1,0 +1,15 @@
+Characteristic,No restart,Restart,Missing before imputation
+"Age, years","66 [55, 76]","64 [52, 74]",<10
+Female sex,Not disclosed,Not disclosed,<10
+"Episode peak NEE, μg/kg/min","0.300 [0.175, 0.501]","0.350 [0.200, 0.575]",<10
+"Last positive NEE before discontinuation, μg/kg/min","0.030 [0.020, 0.050]","0.030 [0.020, 0.050]",<10
+"Cumulative positive NEE exposure, hours","32.1 [16.9, 56.2]","40.6 [19.9, 78.6]",<10
+2 or more vasopressor agents at episode peak,Not disclosed,Not disclosed,<10
+SOFA score over the preceding 24 hours,"8 [6, 10]","8 [6, 11]",<10
+Mechanical ventilation at withdrawal,Not disclosed,Not disclosed,<10
+Renal replacement therapy at withdrawal,Not disclosed,Not disclosed,<10
+"Mean MAP over the preceding 4 hours, mmHg","74.2 [69.5, 80.2]","75.2 [70.2, 81.2]",<10
+Invasive source for MAP,Not disclosed,Not disclosed,<10
+"Mean heart rate over the preceding 4 hours, beats/min","85.8 [74.5, 97.4]","88.4 [75.0, 100.0]",<10
+"Urine output over the preceding 24 hours, mL","1,215 [658, 2,010]","1,195 [588, 2,225]",Not disclosed
+"Peak lactate over the preceding 12 hours, mmol/L","2.1 [1.5, 3.1]","2.2 [1.5, 3.2]",Not disclosed

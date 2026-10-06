@@ -1,0 +1,7 @@
+Cohort,Population,Events,"Remaining risk (%), 95% CI"
+MIMIC-IV,Overall,Not disclosed,19.6 (17.7 to 21.5)
+MIMIC-IV,No ventilation record,Not disclosed,14.6 (12.0 to 17.0)
+MIMIC-IV,Ventilation record,Not disclosed,24.6 (21.5 to 27.8)
+SICdb,Overall,Not disclosed,19.2 (17.3 to 20.9)
+SICdb,No ventilation record,Not disclosed,12.9 (10.5 to 15.3)
+SICdb,Ventilation record,Not disclosed,33.3 (28.7 to 38.3)

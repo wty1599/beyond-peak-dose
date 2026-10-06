@@ -1,0 +1,14 @@
+Characteristic,No restart,Restart,Missing
+Age (years; grouped source values),"70.0 [60.0, 75.0]","70.0 [60.0, 80.0]",<10
+Female sex,Not disclosed,Not disclosed,<10
+Episode peak NEE (micrograms/kg/min),"0.20 [0.14, 0.30]","0.24 [0.15, 0.39]",<10
+Last positive NEE (micrograms/kg/min),"0.02 [0.01, 0.03]","0.02 [0.01, 0.04]",<10
+Cumulative positive NEE exposure (h),"19.9 [11.8, 36.1]","26.6 [14.6, 44.9]",<10
+At least two vasopressors at peak NEE,Not disclosed,Not disclosed,<10
+SOFA before withdrawal (mature daily proxy),"5.0 [4.0, 7.0]","6.0 [5.0, 7.0]",Not disclosed
+Mechanical ventilation at withdrawal (airway/device proxy),Not disclosed,Not disclosed,Not disclosed
+Recorded CRRT activity in preceding 6 h,Not disclosed,Not disclosed,<10
+Mean MAP in preceding 4 h (mmHg),"70.5 [66.7, 75.5]","70.4 [66.3, 75.3]",<10
+Invasive MAP source,Not disclosed,Not disclosed,<10
+Mean heart rate in preceding 4 h (beats/min),"80.7 [75.2, 90.3]","83.4 [75.9, 92.7]",<10
+Urine output in preceding 24 h (mL),"1310.0 [760.0, 2068.8]","1075.0 [627.5, 1702.5]",Not disclosed

@@ -1,0 +1,9 @@
+predictor,lower_p005,upper_p995
+predictor_age,20,92
+predictor_episode_peak_nee,0.1,13.353476000000047
+predictor_last_positive_nee,0.0098665,1.100968
+predictor_mean_heart_rate_4h,50.1325,133.82333333333327
+predictor_mean_map_4h,41.55416666666667,107.1599999999994
+predictor_positive_nee_hours,6.194416666666667,309.2119166666667
+predictor_sofa_24h,1,18
+predictor_urine_output_24h_ml,0.14000000000000057,6689.8500000000095

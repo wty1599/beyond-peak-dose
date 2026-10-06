@@ -1,0 +1,13 @@
+database,time_hours,estimate,record_type,lower,upper,category,public_note
+MIMIC-IV,12,0.195,interval,0.176,0.214,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,24,0.268,interval,0.249,0.289,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,72,0.347,interval,0.326,0.368,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,12,0.187,interval,0.171,0.205,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,24,0.261,interval,0.243,0.281,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,48,0.317,interval,0.298,0.336,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,72,0.335,interval,0.315,0.355,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+AmsterdamUMCdb,24,0.182,point,,,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+AmsterdamUMCdb,72,0.269,point,,,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+MIMIC-IV,,0.127,conditional_24_to_72h,0.107,0.146,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+SICdb,,0.118,conditional_24_to_72h,0.101,0.135,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
+AmsterdamUMCdb,,0.121,conditional_24_to_72h,0.091,0.147,,Fixed-time summary; probabilities rounded to 0.1 percentage point; event-resolution data withheld.
