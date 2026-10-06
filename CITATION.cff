@@ -3,6 +3,8 @@ message: "Please cite this software and the accompanying manuscript. A release D
 type: software
 title: "Beyond peak dose: the 72-hour transition after vasopressor withdrawal in septic shock"
 abstract: "Analysis code and disclosure-protected aggregate results for a three-cohort clinical study of vasopressor withdrawal."
+url: "https://github.com/wty1599/beyond-peak-dose"
+repository-code: "https://github.com/wty1599/beyond-peak-dose"
 authors:
   - family-names: Wang
     given-names: Tianyi

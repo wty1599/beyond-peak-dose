@@ -4,13 +4,10 @@ Analysis code and disclosure-protected aggregate results for *Beyond peak dose:
 the 72-hour transition after vasopressor withdrawal in septic shock* by Wang
 and colleagues, prepared for Annals of Intensive Care (publication pending).
 
-**Current status: private review candidate, not a released reproducibility
-package.** The MIMIC raw-to-cohort route requires
-`project_d4.d4_subject_last_record`; its original creation script has not been
-recovered. Its rule is not inferred or substituted here. The fixed-cohort
-predictor extractors no longer require historical patient-level feature caches,
-but the portable copies have not been tested end to end. No release DOI has
-been assigned.
+**Code and aggregate-results package.** The original MIMIC last-record table
+definition is included, and the fixed-cohort predictor extractors no longer
+require historical patient-level feature caches. The portable routes have not
+been tested end to end with source data. No archival DOI has been assigned.
 
 ## Data access
 
@@ -64,7 +61,7 @@ single automatic pipeline.
 
 | Route | Order |
 | --- | --- |
-| MIMIC source prerequisites | Existing MIMIC derived concepts; `00_source_mappings.sql`, `00_source_exclusions.sql`, `00_code_status.sql`; resolve the missing last-record table before cohort extraction |
+| MIMIC source prerequisites | Existing MIMIC derived concepts; `00_prepare_sources.sql` runs `00_source_mappings.sql`, `00_source_exclusions.sql`, `00_code_status.sql`, then `00_subject_last_record.sql` |
 | MIMIC cohort and predictors | `00_extract_candidates.sql`, `00_positive_drug_check.sql`, `01_select_cohort.py`, `02_build_inputs.py` |
 | MIMIC clinical results | `04_prepare_clinical.py`, then `05_cumulative_incidence.R`, `06_support_strata.R`, `07_conditional_risk.R` |
 | MIMIC associations and burden | `03_association_models.R`, `08_sensitivity_models.R`; `09_prepare_burden_query.py`, execute its private SQL, then `10_restart_burden.R` |
@@ -82,18 +79,27 @@ Within each route the files are in the corresponding numbered `code/`
 subdirectory. For example:
 
 ```text
+psql -X -v ON_ERROR_STOP=1 -f code/01_mimic/00_prepare_sources.sql
 python code/02_sicdb/00_extract_source_store.py prep
 Rscript code/04_common_specification/01_paired_models.R mimic
 ```
+
+For MIMIC, run the source-preparation command before
+`00_extract_candidates.sql`. It creates or recreates only study-derived tables
+in `project_d2v2`, `project_step4` and `project_d4`; it does not modify the MIMIC
+source tables. These schemas should be dedicated to this analysis. The
+candidate export is a separate read-only step.
 
 MIMIC extraction uses `psql` output variables `candidates_file`,
 `code_status_file`, `subject_last_record_file` and `positive_drug_file`.
 Export these as `candidates.csv`, `code_status.csv`, `subject_last_record.csv`
 and `positive_drug_rounded_zero_nee.csv` inside the configured
 `mimic_candidate_exports` directory. Definitions tables are created in a local
-analysis schema; source tables are read only. The required last-record export
-contains the study's original last-documented-time field, **not** a newly
-chosen maximum discharge time.
+analysis schema; source tables are read only. `00_subject_last_record.sql`
+reproduces the original definition: `MAX(dischtime)` from
+`mimiciv_hosp.admissions`, grouped by `subject_id`. The exported
+`last_documented_dischtime` is therefore the patient's latest documented
+hospital discharge, not the latest record across all clinical source tables.
 
 Amsterdam numeric extraction expects the original inner `numericitems.zip`,
 not the outer download bundle. Source/schema guards retain the version-specific
@@ -150,5 +156,4 @@ is documented in Supplementary Section S2 of the manuscript.
 Code is MIT licensed (`LICENSE`). Released aggregate results and repository
 figure derivatives are CC BY 4.0 (`LICENSE-results`). Database access and
 reuse remain governed by each provider's terms. Use `CITATION.cff`; the
-repository DOI and version metadata will be added after author approval and
-archival release.
+archival DOI and version metadata will be added when available.
