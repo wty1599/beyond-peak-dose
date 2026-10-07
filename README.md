@@ -2,7 +2,7 @@
 
 Analysis code and disclosure-protected aggregate results for *Beyond peak dose:
 the 72-hour transition after vasopressor withdrawal in septic shock* by Wang
-and colleagues, prepared for Annals of Intensive Care (publication pending).
+and colleagues (manuscript publication pending).
 
 **Code and aggregate-results package.** The original MIMIC last-record table
 definition is included, and the fixed-cohort predictor extractors no longer
