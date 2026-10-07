@@ -7,7 +7,8 @@ and colleagues (manuscript publication pending).
 **Code and aggregate-results package.** The original MIMIC last-record table
 definition is included, and the fixed-cohort predictor extractors no longer
 require historical patient-level feature caches. The portable routes have not
-been tested end to end with source data. No archival DOI has been assigned.
+been tested end to end with source data. Version 1.0.0 is archived at Zenodo:
+[10.5281/zenodo.23213414](https://doi.org/10.5281/zenodo.23213414).
 
 ## Data access
 
@@ -155,5 +156,6 @@ is documented in Supplementary Section S2 of the manuscript.
 
 Code is MIT licensed (`LICENSE`). Released aggregate results and repository
 figure derivatives are CC BY 4.0 (`LICENSE-results`). Database access and
-reuse remain governed by each provider's terms. Use `CITATION.cff`; the
-archival DOI and version metadata will be added when available.
+reuse remain governed by each provider's terms. Use `CITATION.cff` to cite
+version 1.0.0, released on 7 October 2026:
+[10.5281/zenodo.23213414](https://doi.org/10.5281/zenodo.23213414).
