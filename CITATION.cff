@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this software and the accompanying manuscript."
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.23213414
+date-released: '2026-10-07'
 title: "Beyond peak dose: the 72-hour transition after vasopressor withdrawal in septic shock"
 abstract: "Analysis code and disclosure-protected aggregate results for a three-cohort clinical study of vasopressor withdrawal using MIMIC-IV, SICdb and AmsterdamUMCdb. Patient-level data, fitted models and imputation objects are not included. Code is licensed under MIT; released aggregate results and repository figure derivatives are licensed under CC BY 4.0. Portable input-generation routes are provided but have not been tested end to end with source data."
 url: "https://github.com/wty1599/beyond-peak-dose"
